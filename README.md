@@ -52,15 +52,20 @@ uv add -r requirements.txt
 
 ## Usage
 
+### Command Line Interface
 Run the main script:
 ```bash
 python main.py
 ```
 or 
-
-Run the main script:
 ```bash
 uv run main.py
+```
+
+### Web Interface
+Run the Streamlit app for a user-friendly interface:
+```bash
+streamlit run app.py
 ```
 
 The agent will prompt you to enter a question. It will then:
